@@ -56,4 +56,3 @@ class Test_001_Login:
             self.logger.info("****** Login test is failed *******")
             assert False
 
-#jfjfhkfhkg,gk
