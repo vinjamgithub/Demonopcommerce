@@ -118,3 +118,21 @@
 06/22/2023 06:20:41 PM: INFO: **** started addcustomer ****
 06/22/2023 06:20:41 PM: INFO: **** providing customer info ****
 06/22/2023 06:20:45 PM: INFO: **** searching customer **** 
+06/22/2023 10:56:38 PM: INFO: ***** Test_003_Addcustomer ******
+06/22/2023 10:56:44 PM: INFO: **** login sucessfully ****
+06/22/2023 10:56:44 PM: INFO: **** started addcustomer ****
+06/22/2023 10:56:44 PM: INFO: **** providing customer info ****
+06/22/2023 10:56:53 PM: INFO: *** customer info is saved ****
+06/22/2023 10:56:53 PM: INFO: **** customer validations is started ****
+06/22/2023 10:56:55 PM: INFO: **** customer is passed ****
+06/22/2023 10:56:55 PM: INFO: **** ending addcustomer test ****
+06/22/2023 10:56:57 PM: INFO: ****** Test_001_Login *******
+06/22/2023 10:56:57 PM: INFO: ****** verify homepage Title *******
+06/22/2023 10:56:58 PM: INFO: Your store. Login
+06/22/2023 10:56:58 PM: INFO: ****** home page title is passed *******
+06/22/2023 10:57:06 PM: INFO: ****** Login test is passed *******
+06/22/2023 10:57:41 PM: INFO: ***** Test_003_Addcustomer ******
+06/22/2023 10:57:45 PM: INFO: **** login sucessfully ****
+06/22/2023 10:57:45 PM: INFO: **** started addcustomer ****
+06/22/2023 10:57:45 PM: INFO: **** providing customer info ****
+06/22/2023 10:57:49 PM: INFO: **** searching customer **** 
