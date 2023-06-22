@@ -253,12 +253,9 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 27-Apr-2023 at 18:28:23 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 22-Jun-2023 at 18:20:45 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Environment</h2>
     <table id="environment">
-      <tr>
-        <td>JAVA_HOME</td>
-        <td>C:\Program Files\Java\jdk-11.0.14</td></tr>
       <tr>
         <td>Module name</td>
         <td>Customers</td></tr>
@@ -270,10 +267,10 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Windows-10-10.0.19045-SP0</td></tr>
       <tr>
         <td>Plugins</td>
-        <td>{"html": "3.2.0", "metadata": "2.0.4", "xdist": "3.2.1"}</td></tr>
+        <td>{"allure-pytest": "2.13.2", "html": "3.2.0", "metadata": "2.0.4", "xdist": "3.2.1"}</td></tr>
       <tr>
         <td>Python</td>
-        <td>3.11.0</td></tr>
+        <td>3.11.3</td></tr>
       <tr>
         <td>Tester</td>
         <td>venky</td></tr>
@@ -281,8 +278,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>project name</td>
         <td>demo nop </td></tr></table>
     <h2>Summary</h2>
-    <p>2 tests ran in 9.22 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>5 tests ran in 88.44 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">5 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -296,8 +293,17 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
+          <td class="col-name">test_addcustomer.py::Test_003_Addcustomer::test_addcustomer</td>
+          <td class="col-duration">23.87</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
           <td class="col-name">test_login.py::Test_001_Login::test_homepageTitle</td>
-          <td class="col-duration">3.65</td>
+          <td class="col-duration">6.42</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -306,7 +312,25 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_login.py::Test_001_Login::test_login</td>
-          <td class="col-duration">5.52</td>
+          <td class="col-duration">10.14</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_login_ddt.py::Test_002_DDT_Login::test_login_ddt</td>
+          <td class="col-duration">34.24</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_searchcustomer.py::Test_004_searchcustomer::test_addcustomer</td>
+          <td class="col-duration">12.74</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">

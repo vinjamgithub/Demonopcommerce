@@ -8,6 +8,9 @@ class Login:
     button_login_xpath = "//button[@class='button-1 login-button']"
     link_logout_linktext = "Logout"
 
+    # driver comes from actual test cases
+    #init is constructor, it doing capture the driver from test cases,will pases the test cases later,the driver intiating the class driver
+    # self is used call the class variables
     def __init__(self, driver):
         self.driver = driver
 

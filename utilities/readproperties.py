@@ -1,5 +1,6 @@
 import configparser
 
+#rawconfigparser is a predefined paackage.
 config = configparser.RawConfigParser()
 config.read(".\\Configurations\\config.ini")
 class ReadConfig:

@@ -24,10 +24,13 @@ def browser(request):
 
 
 ###### pytest html report ######
+# it is hook for adding environment info to HTML report
 def pytest_configure(config):
     config._metadata['project name'] = 'demo nop '
     config._metadata['Module name'] = 'Customers'
     config._metadata['Tester'] = 'venky'
+
+# it is hook for delete/modify environment info to HTML report
 @pytest.mark.optionalhook
 def pytest_metadada(metadata):
     metadata.pop("JAVA_HOME",None)
